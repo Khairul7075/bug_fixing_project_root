@@ -1,0 +1,8 @@
+# Ignore environment and credentials
+.env
+credentials.json
+
+# Optional: logs and other local files
+logs/
+__pycache__/
+*.pyc

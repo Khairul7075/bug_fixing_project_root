@@ -1,11 +1,10 @@
-# automation-project
-# Automation Project
+
 
 ## 🔧 Setup Instructions
 
 1. Clone the repository:
-   git clone https://github.com/Khairul7075/automation-project.git
-   cd automation-project
+   git clone https://github.com/Khairul7075/bug_fxing project_root.git
+   cd bug_fxing project_root
 
 2. Install dependencies:
    pip install -r requirements.txt
@@ -15,7 +14,7 @@
      SHEET_URL=https://docs.google.com/spreadsheets/d/your-sheet-id/edit#gid=0
      GOOGLE_APPLICATION_CREDENTIALS=credentials.json
    - Keep `credentials.json` only on your machine (do not commit it).
-   - Optionally commit `.env.example` with placeholders.
+   - 
 
 ---
 
