@@ -3,6 +3,9 @@
 credentials.json
 
 # Optional: logs and other local files
+
 logs/
 __pycache__/
 *.pyc
+
+sources.md

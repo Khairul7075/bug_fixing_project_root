@@ -10,7 +10,7 @@ def test_connection():
     """Test connection to Google Sheet and print header row."""
     try:
         sheet = connect_google_sheet(SHEET_URL)
-        header = sheet.row_values(1)
+        header = sheet.row_values(3)
         print("Connection successful. Header row:", header)
     except Exception as e:
         print("Connection failed:", e)
